@@ -3,7 +3,7 @@ package com.driver;
 import java.util.Scanner;
 
 public class Main {
-    public static void Main(String[] args){
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
         int y = sc.nextInt();
