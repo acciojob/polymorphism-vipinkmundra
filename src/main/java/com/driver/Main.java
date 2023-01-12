@@ -14,13 +14,16 @@ public class Main {
         int ans1 = p.product(x,y);
         int ans2 = p.product(x,y,z);
         double ans3 = p.product(a,b);
-        System.out.println(ans1);
-        System.out.println(ans2);
-        System.out.println(ans3);
+//        System.out.println(ans1);
+//        System.out.println(ans2);
+//        System.out.println(ans3);
     }
 }
 
 class Product{
+    Product(){
+
+    }
     public static int product(int x,int y){
         return x*y;
     }
