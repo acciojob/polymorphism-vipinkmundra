@@ -4,16 +4,16 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        int x = sc.nextInt();
-        int y = sc.nextInt();
-        int z = sc.nextInt();
-        double a = sc.nextDouble();
-        double b = sc.nextDouble();
+//        Scanner sc = new Scanner(System.in);
+//        int x = sc.nextInt();
+//        int y = sc.nextInt();
+//        int z = sc.nextInt();
+//        double a = sc.nextDouble();
+//        double b = sc.nextDouble();
         Product p = new Product();
-        int ans1 = p.product(x,y);
-        int ans2 = p.product(x,y,z);
-        double ans3 = p.product(a,b);
+        int ans1 = p.product(2,3);
+        int ans2 = p.product(2,3,4);
+        double ans3 = p.product(2.3,4.5);
 //        System.out.println(ans1);
 //        System.out.println(ans2);
 //        System.out.println(ans3);
