@@ -4,9 +4,6 @@ import java.util.Scanner;
 
 public class Main {
     public static class Product{
-        Product(){
-
-        }
         public static int product(int x,int y){
             return x*y;
         }
